@@ -73,7 +73,7 @@ function closeAllFaqItems(exceptItem = null) {
             answer.classList.remove('active');
             line.classList.remove('active');
             icon.classList.remove('rotate');  
-            icon.src = '/public/icons/plus.svg'; 
+            icon.src = 'public/icons/plus.svg'; 
             item.classList.remove('active');
         }
     });
@@ -88,7 +88,7 @@ const firstIcon = firstItem.querySelector('.line-svg');
  
 firstAnswer.classList.add('active');
 firstLine.classList.add('active');
-firstIcon.src = '/public/icons/line.svg';  
+firstIcon.src = 'public/icons/line.svg';  
 firstIcon.classList.add('rotate');  
 firstItem.classList.add('active');
 
@@ -108,13 +108,13 @@ faqItems.forEach((item) => {
         if (!isActive) {
             answer.classList.add('active');
             line.classList.add('active');
-            icon.src = '/public/icons/line.svg';  
+            icon.src = 'public/icons/line.svg';  
             icon.classList.add('rotate');  
             item.classList.add('active');   
         } else {
             answer.classList.remove('active');
             line.classList.remove('active');
-            icon.src = '/public/icons/plus.svg';  
+            icon.src = 'public/icons/plus.svg';  
             icon.classList.remove('rotate');  
             item.classList.remove('active');  
         }
